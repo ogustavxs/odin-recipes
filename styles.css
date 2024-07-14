@@ -1,11 +1,29 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(122, 148, 148);
+    justify-content: space-between;
+    display: flex;
+}
+
 .title {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    font-weight: 700;
 }
 
 .recipes-box {
+    align-items: center;
     text-align: center;
+    padding-right: 30px;
 }
 
 .recipes {
